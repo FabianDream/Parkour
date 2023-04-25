@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreatLib("Hardcore Parkour")
+local Window = Library.CreateLib("Hardcore Parkour")
 local Tab = Window:NewTab("ez stuff")
-local Section = Tab:newSection("da good stuf")
+local Section = Tab:NewSection("da good stuf")
 
 Section:NewButton("x5 combo and other", "x5 combo, no fall damage, inf wallboost and wallrun", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/xgamerman626/Hub/main/Init.lua"))()
